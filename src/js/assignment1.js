@@ -48,6 +48,7 @@ users.forEach((user) => {
   }).label;
   delete user.roleId;
   delete user.password;
+  //is not the selected text output to be presented
 });
 
 console.log(users);
